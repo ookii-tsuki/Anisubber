@@ -1,5 +1,5 @@
 <p align="center">
-    <img scr="" width="300" alt="Anisubber"/>
+    <img scr="https://github.com/ookii-tsuki/Anisubber/raw/master/Img/App_Icon.png" width="300" alt="Anisubber"/>
 </p>
 
 # About The Project
@@ -19,6 +19,10 @@ Anisubber is a FREE software for Japanese learners to learn Japanese from anime 
 * Clean UI and easy to use.
 * Customizable subtitle style.
 * Video player supports playing local and hosted videos.
+
+<p align="center">
+    <img scr="https://github.com/ookii-tsuki/Anisubber/blob/master/Img/1.jpg?raw=true" width="300" alt="Preview"/>
+</p>
 
 ## Getting Started
 
