@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anisubber</title>
+	<!-- favicon link -->
+	<link rel="shortcut icon" href="favicon.ico">
+    <!-- css style link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap Style Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid mx-3">
+            <a class="navbar-brand" href="#">
+                <h2>Anisubber</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav py-0   ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Overview">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Documentation">Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Download">Download</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- hero -->
+    <div class="gblobal-container">
+        <div class="container-fluid ">
+            <div class="title">
+                <h1 class="py-5 px-3">Learn Japanese from anime and Japanese drama.</h1>
+            </div>
+            <div class="paragraph py-3 px-3">
+                <p>
+                    Anisubber is a FREE software for Japanese learners to learn Japanese from anime and Japanese drama, it has built-in Japanese and Kanji dictionaries, as well as a Japanese morphological analysis engine to auto-generate Furigana.
+                </p><br>
+                <p>
+                    All you have to do is to import your raw episode as well as the Japanese subtitles and then hit Play. You can also import translation subtitles to display them alongside the Japanese subtitles.
+                    The software then is going to process the Japanese subtitles and auto-generate Furigana, after that, you can click anywhere on the Japanese subtitles to get an instant definition.
+                </p>
+            </div>
+            <button onclick="location.href='#About'" class="btn btn-primary py-3 px-4 mx-3" style="font-size: 1.2rem; border-radius: 5%;">Learn More</button>
+        </div>
+    </div>
+    <!-- Grids -->
+    <div id="Overview"></div>
+    <div class="container-fluid">
+        <h2 class="text-center py-4 text-uppercase" style="font-size: 3rem;">Overview</h2>
+        <hr class="my-3">
+    </div>
+    <center>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/Img/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/Img/2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/Img/preview_screenshot_02.gif" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <hr class="my-5">
+        </div>
+    </center>
+
+    <!-- about -->
+
+    <div id="About"></div>
+    <div class="container-fluid py-3">
+        <div class="small-title mx-3">
+            <h3 class="text-primary text-uppercase">About</h3>
+        </div>
+        <div class="paragraph mx-3 py-3">
+            <p class="about">Anisubber is a FREE software for Japanese learners to learn Japanese from anime and Japanese drama, it has built-in Japanese and Kanji dictionaries, as well as a Japanese morphological analysis engine to auto-generate Furigana.</p>
+        </div>
+
+        <div class="paragraph mx-3 py-3">
+            <p class="about">All you have to do is to import your raw episode as well as the Japanese subtitles and then hit Play. You can also import translation subtitles to display them alongside the Japanese subtitles. The software then is going to process the Japanese subtitles and auto-generate Furigana, after that, you can click anywhere on the Japanese subtitles to get an instant definition.</p>
+        </div>
+
+
+        <div class="paragraph mx-3 py-3">
+            <p class="about">The Japanese dictionary is available in many languages other than English such as German (133,000 entries), Russian (80,000), Hungarian (51,000), Spanish (39,000), Italian (38,000), Dutch (29,000), Swedish (16,000), French (15,000) and Slovenian (9,000), see more details <a href="http://www.edrdg.org/wwwjdic/wwwjdicinf.html" target="_blank">JMDict.</a></p>
+        </div>
+        <hr class="my-4">
+        <div class="small-title mx-3">
+            <h3 class="text-primary text-uppercase">Key Features</h3>
+        </div>
+        <ul class="mx-1">
+            <li>Auto Furigana generation.</li>
+            <li>Instant definition of any word in the subtitles.</li>
+            <li>Instant definition of any Kanji in the subtitles with animated diagrams.</li>
+			<li>Verb inflections when possible.</li>
+            <li>Word spacing in the Japanese subtitles (Can be disabled).</li>
+            <li>Pronounciation audio for most common words.</li>
+            <li>Favorites window where you can save your favorite words and Kanji to review them later.</li>
+            <li>Translation subtitles alongside the Japanese subtitles.</li>
+            <li>Clean UI and easy to use.</li>
+            <li>Customizable subtitle style.</li>
+            <li>Video player supports playing local and hosted videos.</li>
+        </ul>
+        <hr class="my-4">
+        <div id="Documentation"></div>
+        <h2 class="text-center py-4 text-uppercase" style="font-size: 3rem;">Documentation</h2>
+        <hr class="my-4">
+        <div class="small-title mx-3">
+            <h3 class="text-primary text-uppercase">Installation</h3>
+        </div>
+        <div class="paragraph mx-3 py-3">
+            <p class="about">After you <a href="#Download">download</a> Anisubber, run the setup application and follow the installation steps to install it in your Programs menu.</p>
+        </div>
+        <hr class="my-4">
+        <div class="small-title mx-3">
+            <h3 class="text-primary text-uppercase">How To Use.</h3>
+        </div>
+        <div class="paragraph mx-3 py-3">
+            <p class="about">
+                All you have to do after running Anisubber is import each file to its corresponding field by clicking on the three dots buttons (...)
+                "Video file path" is for the raw episode file path.
+                "Japanese subtitles path" is for the Japanese subtitles file path.
+                "Translation subtitles path" is for the translation subtitles, it is optional and it can be in any language you prefer.
+            </p>
+            <p class="about">
+                After you are done importing, hit play and wait for it to process the subtitles and that's it, your episode will start playing.
+            </p>
+            <p class="about">
+                Now you can go around and click anywhere on any word on the subtitles to get instant definition.
+                If you want to select by Kanji, you have to hold ALT and select any Kanji to get an instant definition of it.
+            </p>
+            <p class="about">
+                You can also add any word or Kanji to your Favorites to review them later (Press F to open the favorites window).
+            </p>
+            <p class="about">
+                And those are all the basic functions of Anisubber.
+                You can play around with the settings to customize the subtitles or change the dictionary language etc...
+            </p>
+
+        </div>
+        <hr class="my-4">
+        <div class="small-title mx-3">
+            <h3 class="text-primary text-uppercase">Miscellaneous.</h3>
+        </div>
+        <div class="paragraph mx-3 py-3">
+            <p class="about">
+                The supported video file formats are: .mp4, .m4v, .asf, .avi, .dv, .mov, .mpg, .mpeg, .ogv, .vp8, .webm, .wmv
+				<br>
+                The supported video codec is H.264 (typically in a .mp4, .m4v, or .mov format).
+				<br>
+				The supported subtiles file formats are: .srt, .ass, .ssa, .dfxp, .ttml, .sub, .wsrt, .vtt
+            </p>
+        </div>
+        <hr class="my-4">
+        <div id="Download"></div>
+        <h2 class="text-center py-4 text-uppercase" style="font-size: 3rem;">Download</h2>
+        <hr class="my-4">
+        <!-- Table -->
+        <table class="table mb-5 py-5 ms-auto table-light" >
+            <thead>
+                <tr>
+                    <th scope="col">File Name</th>
+                    <th scope="col">File Size</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a class="about" href="#">Anisubber_1.0-beta.exe</a> </td>
+                    <td>186MB</td>
+                </tr>
+
+            </tbody>
+        </table>
+		<hr class="my-4">
+        <div id="Credits"></div>
+        <h2 class="text-center py-4 text-uppercase" style="font-size: 3rem;">Credits</h2>
+		<div class="paragraph mx-3 py-3" align="center">
+		
+            <p class="about">
+                Made with ❤️ by Med Ben Chrifa, if you have any questions or would like to report a bug, contact me on <a href="mailto:mohamed6aminbenchrifa@gmail.com">mohamed6aminbenchrifa@gmail.com</a>.
+				<br>
+				The Japanese dictionary <a href="http://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project" target="_blank">JMdict</a> and the Kanji dictionary <a href="http://www.edrdg.org/wiki/index.php/KANJIDIC_Project" target="_blank">Kanjidic2</a>.
+				<br>
+				<a href="http://kanjivg.tagaini.net/" target="_blank">KanjiVG</a> for the Kanji stroke diagrams.
+				<br>
+				<a href="https://github.com/komutan/NMeCab" target="_blank">NMeCab</a> for Japanese tokenization.
+				<br>
+				<a href="https://github.com/ookii-tsuki/Doushi" target="_blank">Doushi</a> for inflection data.
+				<br>
+				Pronounciation audio files by <a href="http://www.tofugu.com/" target="_blank">Tofugu’s</a> great kanji learning site <a href="http://www.wanikani.com/" target="_blank">WaniKani</a>.
+            </p>
+		
+        </div>
+    </div>
+    <br class="my-4">
+
+
+
+    <!-- Footer -->
+    <div class="container-fluid bg-light pt-2 sticky-bottom">
+        <h5 class="text-center text-dark " style="text-transform: uppercase;">Special thanks to <a href="https://github.com/itzKoussay/" target="_blank">Koussay Hamdi</a> for the site design</h5>
+		<h5 class="text-center text-dark " style="text-transform: uppercase;">©OOKII TSUKI</h5>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Bootstrap scripts Link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+</body>
+</html>

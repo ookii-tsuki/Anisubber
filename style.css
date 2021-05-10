@@ -1,0 +1,143 @@
+*{
+    font-family: Poppins Light;
+}
+
+@font-face {
+	font-family: "Poppins Light";
+	src: url("Poppins Light.ttf");
+}
+
+img.w-100 {
+    width: 80% !important;
+    height: 80%;
+    filter: brightness(.8);
+    padding: 70px;
+    padding-bottom: 0;
+  }
+.carousel-control-prev {
+    margin-left: 200px;
+}
+
+.carousel-control-next {
+    margin-right: 200px;
+}
+
+
+a{
+    font-size: 1.4rem;
+    padding-top: 0;
+    top: 2px;
+    
+}
+li{
+    padding: 0 15px;
+    
+}
+.paragraph{
+    font-size:1.4rem;
+    color: white;
+}
+/*hero*/
+
+.title{
+    font-weight: 500;
+    font-size: 2rem;
+    color: white;
+    
+}
+.card{
+    margin: 15px;
+}
+
+button>.download{
+    margin: 500px;
+}
+/*navbar*/
+.navbar{
+    box-shadow: 0 4px  8px rgba(0, 0, 0, .3);
+    z-index: 1;
+}
+
+/*hero*/
+.gblobal-container{
+    height: 90vh;
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/*about*/
+p.about{
+    color: black;
+    line-height: 2.5rem;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+/*mobile version*/
+@media (max-width: 992px){
+
+
+   
+}
+
+@media (max-width: 768px){
+    .title>h1{
+        font-size: 40px;
+    }
+    .paragraph>p, a{
+        font-size: 15px;
+    }
+    .gblobal-container{
+        height: 135%;
+    }
+    button.btn{
+        
+    }
+    img.w-100 {
+        width: 100% !important;
+        height: 50vh;
+        filter: brightness(.8);
+        padding: 50px;
+        padding-bottom: 0;       
+    }
+    .carousel-control-prev {
+        margin-left: 50px;
+    }
+
+    .carousel-control-next {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 576px){
+    .title>h1{
+        font-size: 40px;
+    }
+    .paragraph>p, a{
+        font-size: 15px;
+    }
+    .gblobal-container{
+        height: 135%;
+    }
+    button.btn{
+        
+    }
+    img.w-100 {
+        width: 100% !important;
+        height: 40vh;
+        filter: brightness(.8);
+        padding: 50px;
+        padding-bottom: 0;        
+    }
+    .carousel-control-prev {
+        margin-left: 50px;
+    }
+
+    .carousel-control-next {
+        margin-right: 50px;
+    }
+}
