@@ -27,7 +27,7 @@ Anisubber is a FREE software for Japanese learners to learn Japanese from anime 
 
 ### Installation
 
-After you download Anisubber from the <a href="download.html" target="_blank">download page</a>, run the setup application and follow the installation steps to install it in your Programs menu.
+After you download Anisubber from the <a href="https://ookii-tsuki.github.io/Anisubber/#Download" target="_blank">download page</a>, run the setup application and follow the installation steps to install it in your Programs menu.
 
 Further details on usage can be found on the main [website](https://ookii-tsuki.github.io/Anisubber/)
 
